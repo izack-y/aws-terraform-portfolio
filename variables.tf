@@ -32,7 +32,7 @@ variable "db_password" {
   description = "Password for RDS"
   type        = string
   sensitive   = true
-  default     = "S&P1120aws6540geraku" # ⚠️ あなたが設定したパスワード
+ 
 }
 
 variable "db_username" {
