@@ -1,0 +1,12 @@
+# Terraformのステートファイルとバックアップ（機密情報を含む）
+*.tfstate
+*.tfstate.backup
+
+# 変数ファイル（機密情報（パスワードなど）を含む可能性がある）
+*.tfvars
+
+# Terraformが作業中に作成するローカルディレクトリ
+.terraform/
+
+# GitがOS固有のファイルを無視するための設定
+*.log
