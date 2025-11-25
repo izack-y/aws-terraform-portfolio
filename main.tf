@@ -279,9 +279,7 @@ resource "aws_db_instance" "portfolio_db" {
   allocated_storage       = 20
   storage_type            = "gp2"
   db_name                 = "portfoliodb" # データベース名（アプリケーションが接続するデータベースの名前）
-  # username                = "admin"       # マスターユーザー名
   username = var.db_username
-  # password                = "S&P1120aws6540geraku" # ⚠️ 非常に強力なパスワードに変更してください！
   password = var.db_password
   
   # ネットワーキングとセキュリティ
