@@ -21,7 +21,7 @@
 | **Web/DB** | Apache HTTP Server, PHP, MySQL (RDS) |
 
 ### インフラ構成図
-![AWS Webアプリ構成図: Web層とDB層の分離](images/aws_architecture.png)
+![AWS Webアプリ構成図: Web層とDB層の分離](images/AWSdrawio.png)
 
 
 * **VPC設計**: セキュリティレベルに応じて **パブリックサブネット** と **プライベートサブネット** に分割。
